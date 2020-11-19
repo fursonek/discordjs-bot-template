@@ -17,7 +17,8 @@ Template for discord.js projects
 
     module.exports.run = async (bot, message, args) => {
         message.channel.send("🏓 Pong!").then(m => {
-            m.edit(`Latency: ${Math.floor(m.createdTimestamp - message.createdTimestamp)} ms`) //The time difference between the user sending the message and the bot response
+            //The time difference between the user sending the message and the bot response
+            m.edit(`Latency: ${Math.floor(m.createdTimestamp - message.createdTimestamp)} ms`)
         });
     }
 
@@ -29,5 +30,5 @@ Template for discord.js projects
 
 ### Resources
 
-<img align="left" width="40px" alt="discord.js" href="https://discord.js.org/#/" src="https://discord.js.org/static/logo-square.png" />
-<img align="left" width="40px" alt="node.js" href="https://nodejs.org/en/" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />
+<img align="left" width="48px" alt="discord.js" href="https://discord.js.org/#/" src="https://discord.js.org/static/logo-square.png" />
+<img align="left" width="48px" alt="node.js" href="https://nodejs.org/en/" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />
