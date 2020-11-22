@@ -9,9 +9,9 @@ Template for discord.js projects
 - Run bot by `node index.js`
 
 ### Example commands:
-- ping
-- eval
-- avatar
+- [ping](https://github.com/fursonek/discordjs-bot-template/blob/master/commands/ping.js)
+- [eval](https://github.com/fursonek/discordjs-bot-template/blob/master/commands/eval.js)
+- [avatar](https://github.com/fursonek/discordjs-bot-template/blob/master/commands/avatar.js)
 
 ### How to add new commands?
 - Create new file inside "commands" folder | e.g. avatar.js
