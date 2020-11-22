@@ -8,6 +8,11 @@ Template for discord.js projects
 - Install dependencies by command `npm install`
 - Run bot by `node index.js`
 
+### Example commands:
+- ping
+- eval
+- avatar
+
 ### How to add new commands?
 - Create new file inside "commands" folder | e.g. avatar.js
 - Copy the example below and adapt it to your needs
